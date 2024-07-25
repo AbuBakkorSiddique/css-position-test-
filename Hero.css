@@ -1,0 +1,265 @@
+.hero{
+    display:flex;
+    justify-content:space-between; 
+    height:80vh;
+    width:100%; 
+}
+
+@media (max:600px){
+
+   display:flex;
+   justify-content:coloumn;
+   align-iteam:center;
+   felx-direction:coloumn; 
+}
+
+
+.hero-left{
+   height:100%;
+   width:50%; 
+   /* border :1px solid black ;  */
+
+}
+
+.hero-right{
+    height:100%;
+    width:50%; 
+    /* border :1px solid black ;  */
+    padding:5px;
+ 
+ 
+ }
+
+ .hero-left{
+    position:relative; 
+ }
+
+ .matha{
+    position:absolute; 
+    height:80px ;
+    width:60px ;
+     background:red;
+    top:35px ; 
+    left:250px; 
+    border-radius:50%;
+   
+ 
+     
+ }
+
+ .chokh-1{
+   position:absolute;
+   height:5px ; 
+   width:8px ; 
+   background:black;
+   border-radius:50%;
+   top:65px ;
+   left:260px ; 
+ }
+
+ .chokh-2{
+   position:absolute;
+   height:5px ; 
+   width:8px ; 
+   background:black;
+   border-radius:50%;
+   top:65px ;
+   left:287px ; 
+ }
+
+ .nose{
+   position:absolute; 
+   height:9px ;
+   width:1px ; 
+   background:black; 
+   top:80px ; 
+   left :280px ; 
+   transform:rotate(13deg) ; 
+
+ }
+
+ .nose-role1{
+   position:absolute;
+   height:3px;
+   width:3px;
+   border:1px solid black;
+   border-radius:50%;
+   top:86px ; 
+   left:280px ; 
+ }
+ .nose-role2{
+   position:absolute;
+   height:3px;
+   width:3px;
+   border:1px solid black;
+   border-radius:50%;
+   top:86px ; 
+   left:281px ; 
+ }
+
+ .mouth-top{
+   position:absolute; 
+   width:14px;
+   height:5px;
+   border:1px solid black;
+   border-radius:50%; 
+   /* background:black;  */
+   top :93px ; 
+   left:275px; 
+
+   
+ }
+
+ .body{
+   position:absolute; 
+   width:85px ; 
+   height:100px ; 
+   border:1px solid black; 
+   border-radius:15px ; 
+   top:115px ; 
+   left:240px;
+   background-color:red; 
+
+ }
+
+
+ .handtop-1{
+   position:absolute; 
+   height:100px ; 
+   width:30px ; 
+   border:1px solid black; 
+   border-radius:15px ; 
+   top:115px ; 
+   left:215px; 
+   transform:rotate(25deg) ; 
+   background:red; 
+   
+
+ }
+
+ .handtop-2{
+   position:absolute; 
+   height:100px ; 
+   width:30px ; 
+   border:1px solid black; 
+   border-radius:15px ; 
+   top:115px ; 
+   left:320px; 
+   transform:rotate(-25deg) ; 
+   background:red; 
+ }
+
+ .belt{
+   position:absolute; 
+   width:85px ; 
+   height:10px ; 
+   border:1px solid black; 
+   border-radius:5px ; 
+   top:215px ; 
+   left:240px;
+   background-color:red; 
+
+
+ }
+
+ .handbottom-1{
+
+   position:absolute; 
+   height:70px ; 
+   width:30px ; 
+   border:1px solid black; 
+   border-radius:15px ; 
+   top:200px ; 
+   left:200px; 
+ 
+   background:red; 
+
+ }
+
+ .handbottom-2{
+
+   position:absolute; 
+   height:70px ; 
+   width:30px ; 
+   border:1px solid black; 
+   border-radius:15px ; 
+   top:195px ; 
+   left:335px; 
+ 
+   background:red; 
+
+
+
+ }
+
+ .legtop-1{
+position:absolute; 
+   height:90px ;
+   width:35px ;
+   border:1px solid black ; 
+   background:red;
+   border-radius:5px 5px 25px 25px ; 
+
+   top: 225px ; 
+   left:242px ; 
+ }
+
+ .legtop-2{
+
+   position:absolute; 
+   height:90px ;
+   width:35px ;
+   border:1px solid black ; 
+   background:red;
+   border-radius:5px 5px 25px 25px ; 
+
+   top: 225px ; 
+   left:289px ; 
+
+
+ }
+
+ .legbottom-1{
+
+
+   position:absolute; 
+   height:50px ;
+   width:35px ;
+   border:1px solid black ; 
+   background:red;
+   border-radius:25px 25px 9px 9px  ; 
+
+   top: 300px ; 
+   left:242px ; 
+
+
+
+ }
+
+ .legbottom-2{
+   position:absolute; 
+   height:50px ;
+   width:35px ;
+   border:1px solid black ; 
+   background:red;
+   border-radius: 25px 25px 9px 9px  ; 
+
+   top: 300px ; 
+   left:290px ; 
+   animation-name:leg;
+animation-duration : 2s ; 
+animation-delay: ease; 
+animation-iteration-count:infinite ; 
+animationd-direction:alternative; 
+
+   
+ }
+
+ @keyframes leg{
+
+
+100%{
+   background:green ; 
+}
+
+ }
